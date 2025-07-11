@@ -1,0 +1,53 @@
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.producto {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.producto h3 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.producto p {
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+}
+
+.producto button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+  background-color: #3730a3;
+}

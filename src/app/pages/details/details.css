@@ -1,0 +1,32 @@
+.detalle-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
+
+.detalle-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.detalle-container img {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.detalle-container p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.detalle-container p strong {
+  color: #4f46e5;
+}

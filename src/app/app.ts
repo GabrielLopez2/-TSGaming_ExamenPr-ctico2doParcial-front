@@ -1,11 +1,18 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CabeceraComponent } from './componentes/cabecera/cabecera';
+import { FooterComponent } from './componentes/footer/footer';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [
+    RouterOutlet,
+    CabeceraComponent,
+    FooterComponent
+  ],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
   protected title = 'ts-gaming';

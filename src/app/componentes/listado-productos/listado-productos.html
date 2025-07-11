@@ -1,0 +1,9 @@
+<div class="galeria">
+  <div class="producto" *ngFor="let prod of productosFiltrados">
+    <img [src]="prod.imagenUrl" alt="{{ prod.nombre }}" />
+    <h3>{{ prod.nombre }}</h3>
+    <p>{{ prod.descripcion }}</p>
+    <p><strong>${{ prod.precio }}</strong></p>
+    <button (click)="verDetalles(prod.idProducto)">Ver detalles</button>
+  </div>
+</div>
